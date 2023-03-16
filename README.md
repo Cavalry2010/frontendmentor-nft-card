@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://nft-card-alejandro.netlify.app)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/responsive-nft-preview-card-with-flexbox-xZNlguAZlD)
+- Live Site URL: [NFT Preview Card](https://nft-card-alejandro.netlify.app)
 
 ## My process
 
