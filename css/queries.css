@@ -1,0 +1,29 @@
+@media (max-width: 26em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .nft-card-box {
+    padding: 2.8rem;
+  }
+
+  .nft-img-box {
+    margin-bottom: 2.8rem;
+  }
+
+  .heading-primary {
+    margin-bottom: 1.6rem;
+  }
+
+  .nft-text {
+    margin-bottom: 2rem;
+  }
+
+  .nft-description {
+    padding-bottom: 1.6rem;
+  }
+
+  .nft-author {
+    padding: 1.8rem 0 0 0;
+  }
+}

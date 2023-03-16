@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: rgb(13, 25, 43);
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.align-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.overlay {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+.nft-card-box {
+  background-color: rgb(20, 37, 61);
+  padding: 2.4rem;
+  max-width: 35rem;
+  border-radius: 15px;
+}
+
+.nft-img-box {
+  background-image: url("../images/image-equilibrium.jpg");
+  background-size: contain;
+  padding-bottom: 100%;
+  margin-bottom: 2rem;
+  position: relative;
+  border-radius: 10px;
+}
+
+.nft-img-box:hover {
+  background-image: linear-gradient(
+      rgba(0, 255, 247, 0.4),
+      rgba(0, 255, 247, 0.4)
+    ),
+    url("../images/image-equilibrium.jpg");
+  cursor: pointer;
+}
+
+.nft-img-box:hover::after {
+  content: url("../images/icon-view.svg");
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.nft-description {
+  padding-bottom: 2.4rem;
+  border-bottom: solid 1px rgb(47, 65, 91);
+}
+
+.heading-primary {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.link:link,
+.link:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+.link:hover,
+.link:active {
+  color: rgb(0, 255, 247);
+}
+
+.nft-text {
+  color: rgb(139, 172, 218);
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1.5;
+  margin-bottom: 2.4rem;
+}
+
+.nft-auction-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nft-price-time-box {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.nft-price {
+  font-size: 1.6rem;
+  color: rgb(0, 255, 247);
+  font-size: 600;
+}
+
+.nft-time {
+  font-size: 1.6rem;
+  color: rgb(139, 172, 218);
+  font-weight: 400;
+  line-height: 1;
+}
+
+.nft-author {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 1.8rem 0 0.8rem 0;
+}
+
+.avatar-box {
+  height: 3.2rem;
+  width: 3.2rem;
+  border: solid 2px #fff;
+  border-radius: 50%;
+}
+
+.author-avatar {
+  height: 100%;
+}
+
+.author {
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1;
+  color: rgb(139, 172, 218);
+}
+
+.author span {
+  color: #fff;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: #fff;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
